@@ -15,17 +15,32 @@ body{
     color: white;
 }
 
-.location,
-.temperature{
-    height: 30vh;
-    width: 50%;
+.location{
+    height: 15vh;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    cursor: pointer;
+}
+
+.location2{
+    height: 15vh;
+    display: flex;
+    cursor: pointer;
+}
+
+.weather-icon{
+    position:absolute;
+    right: 40px;
 }
 
 .temperature{
+    height: 15vh;
+    display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    cursor: pointer;
+    font-size: 30px;
 }
 
 .degree-section{
@@ -34,11 +49,21 @@ body{
     cursor: pointer;
 }
 
-.degree-section cpan{
-    margin: 10px;
+.location cpan{
     font-size: 30px;
+    text-align: left;
 }
 
 .degree-section h2{
     font-size: 40px;
+}
+
+
+
+.col {
+    display: block;
+}
+
+.T-d{
+    flex-direction: column;
 }
