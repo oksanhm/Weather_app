@@ -1,2 +1,2 @@
 # weather_app
-!(screenshots\app.png)
+![app](screenshots/app.png)
